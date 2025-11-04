@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin:0 auto;
+    padding:0 2% ;
+
+}
+
+html, body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: brown;
+}
+
+header{
+    height: 200px;
+    padding:20px 0;
+}
+
+.logo{
+    width:50%;
+}
+
+.menu{
+    padding-top:30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.überUns{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom:-300px;
+    right: -300px;
+    width: 850px;
+    height: 800px;
+    border-top-left-radius: 50%;
+    background-color: white;
+}
