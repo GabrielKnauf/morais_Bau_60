@@ -57,3 +57,14 @@ section.überUns{
     border-top-left-radius: 50%;
     background-color: white;
 }
+.social-media{ 
+    position: absolute;
+    right: 310px; 
+    top: 120px; 
+} 
+
+.social-media img{ 
+    display: block; 
+    width: 25px; 
+    margin: 15px 0; 
+}
